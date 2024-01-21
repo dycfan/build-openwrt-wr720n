@@ -1,9 +1,9 @@
 name: build-opnwrt-WR720N
 
 on:
-  push:
+  repository_dispatch:
     branches:
-      - master
+      - main
 
 jobs:
   build:
